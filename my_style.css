@@ -1,0 +1,292 @@
+/*Styling for background*/
+.body {
+  background-image: linear-gradient(
+      90deg,
+      rgba(3, 4, 63, 0.95),
+      rgba(180, 44, 135, 0.7)
+    ),
+    url("math.jpg");
+}
+/*NAVBAR CSS*/
+.dropbtn {
+  /*color: rgb(72, 104, 175);*/
+  color: rgb(164, 183, 224);
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  float: left;
+  background-color: transparent;
+  outline: none;
+  overflow: hidden;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  text-shadow: 1px 1px black;
+  background-color: rgb(144, 77, 175);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: rgb(61, 91, 155);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(61, 91, 155);
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.navitems {
+  margin-left: 120px;
+  margin-top: -54px;
+}
+
+.navitems a {
+  color: rgb(164, 183, 224);
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  float: left;
+}
+
+.navitems a:hover {
+  background-color: rgb(41, 76, 153);
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+  border-radius: 10px 10px 10px 10px;
+}
+/*NAVBAR CSS^^*/
+
+/*Slideshow on landing page*/
+.slideshow {
+  width: 550px;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  margin-bottom: 200px;
+}
+.slideshow img {
+  position: absolute;
+  animation: fling-minislide 20s infinite;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes fling-minislide {
+  20% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.slideshow img:nth-child(1) {
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(2) {
+  animation-delay: 10s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(3) {
+  animation-delay: 15s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(4) {
+  animation-delay: 20s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(5) {
+  animation-delay: 25s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(6) {
+  animation-delay: 30s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(7) {
+  animation-delay: 35s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(8) {
+  animation-delay: 40s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(9) {
+  animation-delay: 45s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(10) {
+  animation-delay: 50s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(11) {
+  animation-delay: 55s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(12) {
+  animation-delay: 60s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(13) {
+  animation-delay: 65s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(14) {
+  animation-delay: 70s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(15) {
+  animation-delay: 75s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(16) {
+  animation-delay: 80s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(17) {
+  animation-delay: 85s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(18) {
+  animation-delay: 90s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(19) {
+  animation-delay: 95s;
+  animation-iteration-count: 1;
+}
+.slideshow img:nth-child(20) {
+  animation-delay: 100s;
+  animation-iteration-count: 1;
+}
+/*Slideshow on landing page^^*/
+
+/*Landing page word content*/
+#landing-content {
+  float: top;
+  position: absolute;
+}
+
+#landing-content p {
+  color: rgb(156, 156, 156);
+  background-color: rgb(41, 76, 153);
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 45vw;
+  font: Arial;
+  border: inset;
+  border-width: 5px;
+  border-color: silver;
+  padding: 5px;
+}
+
+#landing-content h1 {
+  text-shadow: 3px 3px black;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 45vw;
+  font: Arial;
+  font-size: 50px;
+  padding: 5px;
+}
+
+#landing-content h2 {
+  text-shadow: 3px 3px black;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 45vw;
+  font: Arial;
+  padding: 5px;
+}
+/*Landing page word content^^*/
+
+/*styling for grade 10, 11, and 12 pages*/
+.main-content h1 {
+  font-size: 30px;
+  color: whitesmoke;
+  margin-left: 20px;
+  text-shadow: 3px 3px black;
+}
+
+.main-content h2 {
+  background-color: rgba(180, 44, 135, 0.4);
+  font-size: 20px;
+  color: whitesmoke;
+  margin-left: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.main-content pre {
+  background-color: rgba(3, 4, 63, 0.4);
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.main-content a {
+  color: whitesmoke;
+  padding: 5px;
+  margin: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: pink;
+}
+/*styling for grade 10, 11, and 12 pages^^^*/
+
+/*About Us/Contact Us/FAQ pages styling*/
+.secondary-content h1 {
+  color: white;
+  margin-left: 4vw;
+  font-size: 40px;
+  text-shadow: 4px 4px #000000;
+}
+
+.secondary-content h2 {
+  color: white;
+  margin-left: 4vw;
+  font-size: 25px;
+  text-shadow: 3px 3px #000000;
+}
+
+.secondary-content pre {
+  font-size: 18px;
+  color: white;
+}
+/*About Us/Contact Us/FAQ pages styling^^^ */
